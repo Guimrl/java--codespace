@@ -8,5 +8,11 @@ package com.mycompany.app;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello Remote World!");
+        Work work = new Work();
+        System.out.println(work.getWork());
+        work.setWork("Wow, how it works??");
+        System.out.println(work.getWork());
     }
+
+    
 }
