@@ -2,10 +2,10 @@ package com.mycompany.app;
 
 import java.util.Random;
 
-public class Matriz {
+public class Matrix {
 
     public static void main(String[] args) {
-        int[][] matriz = new int[3][3];
+        int[][] matrix = new int[3][3];
         int[] sortedNums = new int[9];
         Random rand = new Random();
 
@@ -16,14 +16,14 @@ public class Matriz {
                     number = rand.nextInt(9) + 1;
                 } while (existOnArray(number, sortedNums));
 
-                matriz[line][column] = number;
+                matrix[line][column] = number;
                 sortedNums[line * 3 + column] = number;
             }
         }
 
         for (int line = 0; line < 3; line++) {
             for (int column = 0; column < 3; column++) {
-                System.out.print(matriz[line][column] + " ");
+                System.out.print(matrix[line][column] + " ");
             }
             System.out.println();
         }
