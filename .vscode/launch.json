@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matriz",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Matriz",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "com.mycompany.app.Fibonacci",
