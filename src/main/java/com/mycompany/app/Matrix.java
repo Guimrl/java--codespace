@@ -2,6 +2,14 @@ package com.mycompany.app;
 
 import java.util.Random;
 
+/*
+ * write a script that draws 9 numbers and places them in a matrix (two-dimensional array) 3x3,
+ * taking into account that the numbers cannot be repeated and their neighbors within the array
+ * of each line CANNOT be real neighboring numbers.
+ * Ex: 
+ * [4, 5, 6] where 4 and 5 are direct neighbors.
+ */
+
 public class Matrix {
 
     public static void main(String[] args) {
