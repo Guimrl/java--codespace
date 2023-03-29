@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Matrix",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Primo",
             "request": "launch",
             "mainClass": "com.mycompany.app.Primo",
