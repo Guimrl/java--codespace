@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.ArraySum",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "BreakAString",
             "request": "launch",
             "mainClass": "com.mycompany.app.BreakAString",
