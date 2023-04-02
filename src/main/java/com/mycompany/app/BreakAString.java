@@ -1,5 +1,11 @@
 package com.mycompany.app;
+
 import java.util.Scanner;
+
+/*
+ * Write code that breaks any string into fixed-length chunks of 
+ * 50 characters and print each of these chunks on a line.
+*/
 
 public class BreakAString {
 
@@ -9,7 +15,7 @@ public class BreakAString {
         System.out.println("Insira uma string como argumento. ");
         String txt = scan.nextLine();
         scan.close();
-        
+
         int tamanho = 10;
         int total = (int) Math.ceil((double) txt.length() / tamanho);
 
