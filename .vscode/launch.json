@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreakAString",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.BreakAString",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Matrix",
             "request": "launch",
             "mainClass": "com.mycompany.app.Matrix",
